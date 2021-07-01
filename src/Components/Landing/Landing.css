@@ -1,0 +1,39 @@
+.landing {
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 60%, rgba(18, 0, 119, 0.25)),
+    url("../../assets/images/landing-bg.jpg") no-repeat center center / cover;
+  height: fit-content;
+  padding: 100px 20px 50px 20px;
+}
+.mt-10 {
+  margin-top: 150px;
+}
+.fit-content {
+  height: fit-content;
+}
+.banner-text-head {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 86px;
+  color: #c7c7c7;
+}
+
+.banner-text-para {
+  font-family: "beyond";
+  font-size: 86px;
+  color: #c7c7c7;
+}
+
+.banner-container {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+@media (max-width: 768px) {
+  .banner-text-head {
+    font-size: 42px;
+  }
+  .banner-text-para {
+    font-size: 42px;
+  }
+}

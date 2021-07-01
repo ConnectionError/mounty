@@ -1,0 +1,24 @@
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#fc3, #a0e);
+  border-radius: 10px;
+}
+.flex-1 {
+  flex: 1;
+}
+.full-page {
+  height: 100vh;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(#ffbf00, #6e0099);
+}
